@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  background-color: theme('colors.background');
+  color: theme('colors.text');
+}
+
+::selection {
+  background-color: theme('colors.primary');
+  color: #000;
+}
